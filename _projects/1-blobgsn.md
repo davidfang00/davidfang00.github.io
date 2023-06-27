@@ -16,9 +16,8 @@ We combined BlobGAN with Generative Scene Networks to generate editable 3D scene
   <img hspace="5px" vspace="5px"  src="/files/blobgsn/scene_walk_1.gif" width="150px"/>
   <img hspace="5px" vspace="5px"  src="/files/blobgsn/scene_walk_2.gif" width="150px"/>
   <img hspace="5px" vspace="5px"  src="/files/blobgsn/scene_walk_3.gif" width="150px"/>
-  <img hspace="5px" vspace="5px"  src="/files/blobgsn/scene_walk_4.gif" width="150px"/>
   <br>
-  Walking through five random scenes
+  Walking through four random scenes
   <br>
   &nbsp; <br>
 
@@ -33,6 +32,7 @@ We combined BlobGAN with Generative Scene Networks to generate editable 3D scene
   <br>
   Different blobs = different styles
   &nbsp; <br>
+</p>
 
 ### Blob Editing
 <p align="center">
