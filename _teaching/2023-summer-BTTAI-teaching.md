@@ -4,7 +4,7 @@ collection: teaching
 type: "Teaching Assitant"
 permalink: /teaching/2023-summer-BTTAI-teaching
 venue: "MIT, Schwarzman College of Computing"
-date: 2023
+date: 2023-05-01
 location: "Cambridge, MA"
 ---
 

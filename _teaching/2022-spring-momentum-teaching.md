@@ -4,7 +4,7 @@ collection: teaching
 type: "Executive Board, Curriculum Committee Co-Lead"
 permalink: /teaching/2022-spring-momentum-teaching
 venue: "MIT"
-date: 2022
+date: 2022-02-01
 location: "Cambridge, MA"
 ---
 
