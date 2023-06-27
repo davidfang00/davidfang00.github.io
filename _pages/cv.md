@@ -11,32 +11,36 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science and Physics, Massachusetts Institute of Technology, 2023
+* M.Eng. in Computer Science, Massachusetts Institute of Technology, 2024
 
-Work experience
+Research Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Sep 2022 - Present: Beery Group @ MIT CSAIL
+  * Developed computer vision models with pose-invariant embeddings for animal re-identification metric learning (PyTorch)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Jan 2022 - May 2022: Raskar Group (Camera Culture) @ MIT Media Lab
+  * Created a LIDAR simulator and added noise and distortion effects to the time-of-flight renderer (MATLAB, C++)
+
+* Nov 2020 - Dec 2021: Soljačić Group (Photonics and Electromagnetics) @ MIT RLE
+  * Designed a depth-sensing camera lens using nanophotonic inverse-design and encoder-decoder neural networks (PyTorch)
+
+
+Work Experience
+======
+* Summer 2022: SWE Intern @ Google
+  * Worked on Ads Resource Engineering to develop tools for data center machine resource management and allocation
+
+* Summer 2021: SWE Intern @ Redfin
+  * Worked on the Notifications team to improve Redfin’s data streaming infrastructure (Java, Kafka, Samza)
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming: Python, Java, Julia, C++, Typescript/Javascript, SQL, Assembly (RISC-V)
+* Scientific/ML: PyTorch, NumPy, pandas, scikit-learn, JAX, MATLAB, MPI, NLopt, numba
+* Other: Git, Protobuf, Kafka, Samza
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -46,14 +50,10 @@ Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
