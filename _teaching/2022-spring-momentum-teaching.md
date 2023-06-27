@@ -2,7 +2,7 @@
 title: "Momentum AI"
 collection: teaching
 type: "Executive Board, Curriculum Committee Co-Lead"
-permalink: /teaching/2022-momentum-teaching
+permalink: /teaching/2022-spring-momentum-teaching
 venue: "MIT"
 date: 2022
 location: "Cambridge, MA"
