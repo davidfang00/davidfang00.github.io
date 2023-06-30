@@ -1,12 +1,12 @@
 ---
-title: "BlobGSN: Generative Scene Networks with Mid-Level Blob Representations"
+title: "BlobGSN: Generative Neural Radiance Fields with Mid-Level Blob Representations"
 excerpt: "Generative adversarial network with mid-level blob representations based off of BlobGAN and Generative Scene Networks (GSN) <br/><img src='/files/blobgsn/scene_walk_3_long.gif'>"
 collection: projects
 ---
 
 [Project Page](https://ilonadem.github.io/blobgsn-demo/)
 
-We combined BlobGAN with Generative Scene Networks to generate editable 3D scenes. Namely, we use Gaussian "blobs" as input to generating a 2-D floorplan that is then used to locally condition a radiance field. The Gaussian blobs represent objects in a scene; by moving, shifting, scaling, removing, and adding the blobs in the latent space we are able to make corresponding changes in the rendered images. The result is a customizable and editable 3D scene, and a self-suprevised way of identifying and representing the objects in it.
+We combined BlobGAN with Generative Scene Networks to generate editable 3D scenes. Namely, we use Gaussian "blobs" as input to generating a 2-D floorplan that is then used to locally condition a neural radiance field. The Gaussian blobs represent objects in a scene; by moving, shifting, scaling, removing, and adding the blobs in the latent space we are able to make corresponding changes in the rendered images. The result is a customizable and editable 3D scene, and a self-suprevised way of identifying and representing the objects in it.
 
 ## Results
 
