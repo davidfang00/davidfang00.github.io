@@ -26,8 +26,9 @@ author_profile: true
     </td>
     <td style="border: none; padding:2.5%;width:75%;vertical-align:middle">
       <h3>{{post.title}}</h3>
-      {{post.authors}}
       <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+      <br>
+      {{post.authors}}
       <br>
         {% if post.paperurl %}
           <a href="{{post.paperurl}}">Paper</a> /
