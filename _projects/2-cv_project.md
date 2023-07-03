@@ -1,6 +1,6 @@
 ---
 title: "Single-Image 3D Object Reconstruction"
-excerpt: "3D object voxel resconstruction from single-image input of ShapeNet classes with neural networks<br/><img src='/files/cv_project/cv_project_1.png' width=65%>"
+excerpt: "3D object voxel resconstruction from single-image input of ShapeNet classes with neural networks<br/><img src='/files/cv_project/cv_project_1.png'>"
 collection: projects
 ---
 
