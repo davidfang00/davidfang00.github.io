@@ -1,6 +1,6 @@
 ---
 title: "Optimal Vehicle Path Routing Project"
-excerpt: "A Julia package with a collection of graph pathfinding algorithms and optimal greedy/lookahead routing algorithms<br/><img src='/files/julia_hashcode/paths.png' width="200">"
+excerpt: "A Julia package with a collection of graph pathfinding algorithms and optimal greedy/lookahead routing algorithms<br/><img src='/files/julia_hashcode/paths.png' width=65%>"
 collection: projects
 ---
 
