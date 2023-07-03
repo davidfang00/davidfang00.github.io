@@ -1,7 +1,7 @@
 ---
 title: "Break Through Tech AI"
 collection: teaching
-type: "Teaching Assitant"
+type: "Teaching Assistant"
 permalink: /teaching/2023-summer-BTTAI-teaching
 venue: "MIT, Schwarzman College of Computing"
 date: 2023-05-01
