@@ -8,4 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Hi, welcome to my personal website! I'm currently a M.Eng. in Computer Science at MIT. I'm interested in computer vision and how machines can understand the world around us.
+Hi, welcome to my website! I'm currently pursuing a M.Eng. in Computer Science at MIT. I'm interested in computer vision and how machines can understand the world around us.
+
+I previously graduated with a BS in Computer Science and Physics from MIT in 2023. 

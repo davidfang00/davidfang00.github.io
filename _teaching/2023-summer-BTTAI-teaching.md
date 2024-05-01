@@ -11,4 +11,4 @@ location: "Cambridge, MA"
 [MIT Break Through Tech AI](https://computing.mit.edu/about/diversity-equity-inclusion/break-through-tech-ai/)
 
 * Served as a TA for the program to teach machine learning and AI to college students in the Boston area.
-* Advised groups of students on their course projects incorporating ML/AI models and tools.
+* Advised students on their industry projects with Dropbox and MIT-IBM Watson.
