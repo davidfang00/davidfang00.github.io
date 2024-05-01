@@ -10,4 +10,4 @@ redirect_from:
 
 Hi, welcome to my website! I'm currently pursuing a M.Eng. in Computer Science at MIT. I'm interested in computer vision and how machines can understand the world around us.
 
-I previously graduated with a BS in Computer Science and Physics from MIT in 2023. 
+I graduated with a B.S. in Computer Science and Physics from MIT in 2023. I previously worked at Google and Redfin.
