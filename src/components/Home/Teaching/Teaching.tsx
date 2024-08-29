@@ -17,7 +17,7 @@ const Teaching = () => {
         </div> */}
         <div className="teaching-right">
           <h3>6.8300/1 Advances in Computer Vision</h3>
-          <p>Teaching Assistant, MIT EECS, 2024</p>
+          <p>Teaching Assistant, MIT EECS, Spring 2024</p>
           <br></br>
           <p>
             Taught Python and PyTorch tutorials and held weekly office hours for
@@ -44,7 +44,10 @@ const Teaching = () => {
         </div> */}
         <div className="teaching-right">
           <h3>Break Through Tech AI</h3>
-          <p>Teaching Assistant, MIT Schwarzman College of Computing, 2023</p>
+          <p>
+            Teaching Assistant, MIT Schwarzman College of Computing, Summer/Fall
+            2023
+          </p>
           <br></br>
           <p>
             I was as a TA for the program to teach machine learning and AI to
