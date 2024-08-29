@@ -41,13 +41,23 @@ const Navbar = (props) => {
           </ScrollLink>
         </li>
         <li>
-          <ScrollLink to="teaching" smooth={true} offset={-250} duration={500}>
+          <ScrollLink to="teaching" smooth={true} offset={-125} duration={500}>
             Teaching
           </ScrollLink>
         </li>
       </ul>
-
-      <img src={menu_icon} alt="" className="menu-icon" onClick={toggleMenu} />
+      <div className="menu-icon">
+        <div
+          className={mobileMenu ? "nav-icon3 open" : "nav-icon3"}
+          onClick={toggleMenu}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      {/* <img src={menu_icon} alt="" className="menu-icon" onClick={toggleMenu} /> */}
     </nav>
   );
 };
