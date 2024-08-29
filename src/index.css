@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0; /*making the navbar have no margin*/
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /*stroke weight*/
+  font-style: none; /*italic bold etc*/
+}
+
+body {
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.btn {
+  background: #fff;
+  color: #212121;
+  padding: 14px 25px; /* making button background larger*/
+  font-size: 16px;
+  border-radius: 30px; /*making button round*/
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.btn.dark-btn {
+  background: #212ea0;
+  color: #fff;
+}
+
+/*media query*/
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn {
+    padding: 14px 22px;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+.button.button {
+  text-transform: none; /* Override default uppercase transformation */
+  font-size: 20px; /* Increase font size */
+  padding: 10px 30px;
+  background-color: #212ea0;
+  border-radius: 40px;
+  width: 300px;
+}
+
+.default-text {
+  text-align: center;
+  color: white;
+}

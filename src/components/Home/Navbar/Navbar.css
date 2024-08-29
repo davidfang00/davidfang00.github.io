@@ -1,0 +1,94 @@
+nav {
+  width: 100%; /*changing the width of the navbar*/
+  /* background: #333; changing color of the background, commenting out to make transparent navbar */
+  color: #000000; /*changing color of the text of navbar*/
+  padding: 4px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex; /*makes navbar on the top*/
+  align-items: center;
+  justify-content: space-between; /*navbar on top right*/
+  z-index: 10;
+  height: 100px;
+}
+
+.logo {
+  width: 80px; /*change width of logo*/
+  padding-left: 0px;
+}
+
+nav ul li {
+  display: inline-block; /*make horizontal navbar*/
+  list-style: none;
+  margin: 5px 20px; /*5 px top bottom, 20 left right*/
+  font-size: 16px;
+}
+
+.dark-nav {
+  background: #ffffff;
+  transition: 0.5s;
+}
+
+.dark-nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.user-button-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.name-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/*media query*/
+@media (max-width: 1000px) {
+  .logo {
+    width: 60px;
+  }
+  nav ul li {
+    margin: 10px 15px;
+  }
+}
+
+@media (max-width: 840px) {
+  nav {
+    padding: 15px 0;
+  }
+  nav ul {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    background: #ffffff;
+    z-index: -1;
+    width: 175px;
+    padding-top: 70px;
+    transition: 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px 40px;
+  }
+  .dark-nav ul {
+    display: block;
+    flex-direction: column;
+    align-items: left;
+  }
+  .menu-icon {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+  }
+  .hide-mobile-menu {
+    right: -200px;
+  }
+}
