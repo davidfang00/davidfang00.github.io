@@ -2,6 +2,7 @@ import React from "react";
 
 import headshot from "../../../assets/headshot.jpg";
 import blobgsn from "../../../assets/blobgsn/scene_walk_3_long.gif";
+import optical_flow from "../../../assets/optical_flow/optical_flow.jpg";
 import recon3d from "../../../assets/cv_project/cv_thumbnail.jpg";
 import recon3d_pdf from "../../../assets/cv_project/cv_project_paper.pdf";
 import julia_routing from "../../../assets/julia_hashcode/path_thumbnail.jpg";
@@ -26,7 +27,7 @@ const Projects = () => {
             Representations
           </h3>
           <p>
-            We combined BlobGAN with Generative Scene Networks to generate
+            We combine BlobGAN with Generative Scene Networks to generate
             editable 3D scenes. Namely, we use Gaussian “blobs” as input to
             generating a 2-D floorplan that is then used to locally condition a
             neural radiance field. The Gaussian blobs represent objects in a
@@ -39,6 +40,15 @@ const Projects = () => {
           <p>
             {" "}
             <a
+              href="https://dspace.mit.edu/handle/1721.1/156987"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#0000EE" }}
+            >
+              Thesis
+            </a>{" "}
+            /{" "}
+            <a
               href="https://ilonadem.github.io/blobgsn-demo/"
               target="_blank"
               rel="noopener noreferrer"
@@ -49,6 +59,48 @@ const Projects = () => {
             /{" "}
             <a
               href="https://github.com/davidfang00/BlobGSN"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#0000EE" }}
+            >
+              Code
+            </a>{" "}
+          </p>
+        </div>
+      </div>
+
+      {/* Optical Flow */}
+      <div className="projects-item">
+        <div className="projects-left">
+          <img src={optical_flow} alt="" className="projects-img" />
+        </div>
+        <div className="projects-right">
+          <h3>Optical Flow Estimation & Diffusion</h3>
+          <p>
+            Current state-of-the-art optical flow learning models rely on ground
+            truth data collection for sequences of frames in videos.
+            Unsupervised learning of optical flow, which would not require
+            ground truth data, could theoretically leverage any publicly
+            available video data for training. We explore different frameworks
+            for unsupervised optical flow learning to tackle different problems
+            such as photometric error, occlusion handling, and flow smoothness.
+            Additionally, we propose a generative framework for generating
+            optical flow from a single frame that can be trained in an
+            unsupervised manner.
+          </p>
+          <p>
+            {" "}
+            <a
+              href="https://dspace.mit.edu/handle/1721.1/156987"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#0000EE" }}
+            >
+              Thesis
+            </a>{" "}
+            /{" "}
+            <a
+              href="https://github.com/davidfang00/opticalflowdiffusion"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "#0000EE" }}
