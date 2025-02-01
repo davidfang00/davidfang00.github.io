@@ -9,16 +9,15 @@ const About = () => {
     <div className="about" id="about">
       <div className="about-left">
         <h2>About Me</h2>
-        {/* <h2>Transforming Animation with Intelligent Tools</h2> */}
         <p>
-          Hi, I'm David! I’m interested in computer vision and how machines can
-          understand the world around us. I'm currently looking to work on the
-          next new exicting thing :)
+          Hi, I'm David! I’m passionate about exploring how machines can learn
+          and understand the world around us. I'm currently a Member of
+          Technical Staff at OpenAI working on applied AI.
         </p>
         <p>
-          I graduated from MIT with an M.Eng. in Computer Science in 2024 and a
-          B.S. in Computer Science and Physics in 2023. I previously worked at
-          Google and Redfin.
+          Previously, I worked on my own startup building gen AI animation
+          tools, and also at Google and Redfin. I graduated from MIT with an
+          M.Eng. in CS in 2024 and a B.S. in CS and Physics in 2023.
         </p>
         <p>
           {" "}
