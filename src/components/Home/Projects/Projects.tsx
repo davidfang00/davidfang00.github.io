@@ -172,7 +172,18 @@ const Projects = () => {
             trees. The package includes full documentation, CI pipelines, and
             100% unit test code coverage.
           </p>
+
           <p>
+            {" "}
+            <a
+              href="https://davidsfang.com/Julia_Hashcode2014.jl/dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#0000EE" }}
+            >
+              Docs
+            </a>{" "}
+            /{" "}
             <a
               href="https://github.com/davidfang00/Julia_Hashcode2014.jl"
               target="_blank"
