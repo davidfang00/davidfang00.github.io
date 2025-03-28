@@ -173,16 +173,6 @@ const Projects = () => {
             100% unit test code coverage.
           </p>
           <p>
-            {" "}
-            <a
-              href="https://davidfang00.github.io/Julia_Hashcode2014.jl/dev/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "#0000EE" }}
-            >
-              Docs
-            </a>{" "}
-            /{" "}
             <a
               href="https://github.com/davidfang00/Julia_Hashcode2014.jl"
               target="_blank"

@@ -1,17 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 * {
   margin: 0; /*making the navbar have no margin*/
   padding: 0;
   box-sizing: border-box;
-  font-family: "Outfit", sans-serif;
+  font-family: "Source Code Pro", monospace;
   font-optical-sizing: auto;
   font-weight: 400; /*stroke weight*/
   font-style: none; /*italic bold etc*/
 }
 
 body {
-  background: #fff;
+  background: #f9f8f6;
 }
 
 a {
@@ -25,7 +25,7 @@ a {
   padding-right: 10%;
 }
 .btn {
-  background: #fff;
+  background: #f9f8f6;
   color: #212121;
   padding: 14px 25px; /* making button background larger*/
   font-size: 16px;
