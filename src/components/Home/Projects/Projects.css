@@ -48,7 +48,8 @@
 }
 
 .projects-img {
-  width: 80%;
+  width: 90%;
+  max-width: 280px;
   border-radius: 5px;
 }
 
@@ -102,8 +103,8 @@
   }
   .projects-img {
     width: 100%;
-    border-radius: 5px;
-    max-width: 400px;
+    border-radius: 10px;
+    max-width: 300px;
   }
   .projects-right {
     flex-basis: 100%;
