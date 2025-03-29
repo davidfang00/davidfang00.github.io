@@ -13,7 +13,16 @@ const Experience = () => {
       <div className="experience-item">
         <div className="experience-right">
           <p>
-            OpenAI, MIT CSAIL, Google, MIT Media Lab, MIT Research Laboratory of
+            OpenAI, Heartleaf Studios [
+            <a
+              href="https://heartleaf.studio"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#0000EE" }}
+            >
+              heartleaf.studio
+            </a>
+            ], MIT CSAIL, Google, MIT Media Lab, MIT Research Laboratory of
             Electronics, Redfin
           </p>
         </div>
