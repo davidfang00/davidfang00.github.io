@@ -3,7 +3,7 @@ import React from "react";
 import headshot from "../../../assets/headshot.jpg";
 import blobgsn from "../../../assets/blobgsn/scene_walk_3_long.gif";
 import optical_flow from "../../../assets/optical_flow/optical_flow.jpg";
-import recon3d from "../../../assets/cv_project/cv_thumbnail.jpg";
+import recon3d from "../../../assets/cv_project/cv_thumbnail-transparent.png";
 import recon3d_pdf from "../../../assets/cv_project/cv_project_paper.pdf";
 import julia_routing from "../../../assets/julia_hashcode/path_thumbnail.jpg";
 
