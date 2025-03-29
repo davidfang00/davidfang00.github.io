@@ -56,7 +56,7 @@ const Navbar = (props) => {
               Projects
             </ScrollLink>
           </li>
-          <li>
+          {/* <li>
             <ScrollLink
               to="teaching"
               smooth={true}
@@ -65,7 +65,7 @@ const Navbar = (props) => {
             >
               Teaching
             </ScrollLink>
-          </li>
+          </li> */}
         </ul>
         <div className="menu-icon">
           <div
