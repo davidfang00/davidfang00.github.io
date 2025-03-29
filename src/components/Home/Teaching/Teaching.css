@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 30px;
   /* color: #212ea0; */
   margin-bottom: 20px;
@@ -82,10 +82,10 @@
     justify-content: space-between;
     width: 100%;
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 25px;
     /* color: #212ea0; */
     margin-bottom: 20px;
-    margin: 20px;
+    margin: 0 0 10px 20px;
   }
   .teaching-right {
     flex-basis: 100%;
@@ -101,7 +101,15 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;  
+    margin: 0 0 -10px 0;
+  }
+  .teaching h3 {
+    font-weight: 600;
+    font-size: 14px;
+    /* color: #212ea0; */
+  }
+  .teaching-right p {
+    color: #676767;
+    font-size: 13px;
   }
 }

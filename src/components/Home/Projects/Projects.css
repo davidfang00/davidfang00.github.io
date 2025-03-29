@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 30px;
   /* color: #212ea0; */
   margin-bottom: 20px;
@@ -84,8 +84,8 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-top: 50px;
-    font-size: 30px;
+    margin-top: 30px;
+    font-size: 25px;
     /* color: #212ea0; */
     margin-bottom: 30px;
     margin: 20px;
@@ -113,5 +113,15 @@
   }
   .projects-left {
     flex-basis: 100%;
+  }
+  .projects h3 {
+    font-weight: 600;
+    font-size: 14px;
+    /* color: #212ea0; */
+  }
+  .projects p {
+    color: #676767;
+    margin-bottom: 10px;
+    font-size: 13px;
   }
 }
