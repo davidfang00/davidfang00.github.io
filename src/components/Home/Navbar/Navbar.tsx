@@ -24,40 +24,62 @@ const Navbar = (props) => {
 
   /*if sticky true, dark nav bar*/
   return (
-    <nav className={`container ${sticky ? "dark-nav" : ""}`}>
-      {/* <img src={headshot} alt="" className="logo" /> */}
-      <Link to="/" className="name-title">
-        David Fang
-      </Link>
-      <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
-        <li>
-          <ScrollLink to="about" smooth={true} offset={-100} duration={500}>
-            About
-          </ScrollLink>
-        </li>
-        <li>
-          <ScrollLink to="projects" smooth={true} offset={-100} duration={500}>
-            Projects
-          </ScrollLink>
-        </li>
-        <li>
-          <ScrollLink to="teaching" smooth={true} offset={-125} duration={500}>
-            Teaching
-          </ScrollLink>
-        </li>
-      </ul>
-      <div className="menu-icon">
-        <div
-          className={mobileMenu ? "nav-icon3 open" : "nav-icon3"}
-          onClick={toggleMenu}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+    <nav className={`${sticky ? "dark-nav" : ""}`}>
+      <div className="nav-wrapper">
+        {/* <img src={headshot} alt="" className="logo" /> */}
+        <Link to="/" className="name-title">
+          David Fang
+        </Link>
+        <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
+          <li>
+            <ScrollLink to="about" smooth={true} offset={-100} duration={500}>
+              About
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              to="experience"
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Experience
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              to="projects"
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Projects
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              to="teaching"
+              smooth={true}
+              offset={-125}
+              duration={500}
+            >
+              Teaching
+            </ScrollLink>
+          </li>
+        </ul>
+        <div className="menu-icon">
+          <div
+            className={mobileMenu ? "nav-icon3 open" : "nav-icon3"}
+            onClick={toggleMenu}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
+        {/* <img src={menu_icon} alt="" className="menu-icon" onClick={toggleMenu} /> */}
       </div>
-      {/* <img src={menu_icon} alt="" className="menu-icon" onClick={toggleMenu} /> */}
     </nav>
   );
 };

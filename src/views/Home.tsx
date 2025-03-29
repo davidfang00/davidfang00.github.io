@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import About from "../components/Home/About/About";
+import Experience from "../components/Home/Experience/Experience";
 import Projects from "../components/Home/Projects/Projects";
 import Teaching from "../components/Home/Teaching/Teaching";
 
@@ -16,6 +17,7 @@ const Home = () => {
       {/* <Hero /> */}
       <div className="container">
         <About />
+        <Experience />
         <Projects />
         <Teaching />
         <Footer />

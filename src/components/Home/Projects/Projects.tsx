@@ -27,15 +27,12 @@ const Projects = () => {
             Representations
           </h3>
           <p>
-            We combine BlobGAN with Generative Scene Networks to generate
-            editable 3D scenes. Namely, we use Gaussian “blobs” as input to
-            generating a 2-D floorplan that is then used to locally condition a
-            neural radiance field. The Gaussian blobs represent objects in a
-            scene; by moving, shifting, scaling, removing, and adding the blobs
-            in the latent space we are able to make corresponding changes in the
-            rendered images. The result is a customizable and editable 3D scene,
-            and a self-suprevised way of identifying and representing the
-            objects in it.
+            We use Gaussian "blobs" to generate a 2D latent floorplan to locally
+            condition a neural radiance field. By moving, shifting, scaling,
+            removing, and adding these blobs in the latent space, users can edit
+            corresponding objects in the rendered scene. This results in
+            editable and customizable 3D scene generation and a self-supervised
+            object representation.
           </p>
           <p>
             {" "}
@@ -77,16 +74,12 @@ const Projects = () => {
         <div className="projects-right">
           <h3>Optical Flow Estimation & Diffusion</h3>
           <p>
-            Current state-of-the-art optical flow learning models rely on ground
-            truth data collection for sequences of frames in videos.
-            Unsupervised learning of optical flow, which would not require
-            ground truth data, could theoretically leverage any publicly
-            available video data for training. We explore different frameworks
-            for unsupervised optical flow learning to tackle different problems
-            such as photometric error, occlusion handling, and flow smoothness.
-            Additionally, we propose a generative framework for generating
-            optical flow from a single frame that can be trained in an
-            unsupervised manner.
+            Unsupervised optical flow estimation, which does not require ground
+            truth data, could leverage any video data for training. We explore
+            multiple frameworks for unsupervised optical flow estimation to
+            tackle challenges such as photometric error, occlusion handling, and
+            flow smoothness. Additionally, we propose an unsupervised generative
+            framework for optical flow diffusion from a single frame.
           </p>
           <p>
             {" "}
@@ -119,18 +112,11 @@ const Projects = () => {
         <div className="projects-right">
           <h3>Single-Image 3D Object Reconstruction</h3>
           <p>
-            The 3D shape reconstruction from 2D images problem is an extremely
-            challenging task for computer vision because of its ill-posed
-            nature. However, it is also a crucial task that has been used to the
-            advantage of many fields including medical imaging, autonomous
-            driving and object detection. Many recent advances in both the
-            quality of datasets and models have enabled rapid progress for this
-            problem. We explore tackling this challenge using UNet
-            encoder-decoder neural network architectures, with single-image and
-            multi-image approaches. We use the ShapeNet Core55 dataset from the
-            2017 ICCV shape reconstruction challenge to train and evaluate our
-            models. Our best proposed model achieves an average
-            intersection-over-union of 0.41 and a mostly smooth latent space.
+            Reconstructing 3D shapes from 2D images is a challenging task for
+            computer vision because of its ill-posed nature. We tackle this
+            challenge using UNet encoder-decoder neural networks, with
+            single-image and multi-image approaches. We use the ShapeNet Core55
+            dataset to train and evaluate our models.
           </p>
           <p>
             {" "}
@@ -163,14 +149,12 @@ const Projects = () => {
         <div className="projects-right">
           <h3>Optimal Vehicle Path Routing</h3>
           <p>
-            A Julia package with a collection of graph pathfinding algorithms
-            and optimal greedy/lookahead routing algorithms. Given a network of
-            roads, a fleet of cars, and a time limit, what is the set of vehicle
-            paths that maximizes the distance covered within the time limit?
-            This package seeks to answer this problem with a set of path routing
-            algorithms including Dijkstra’s, greedy BFS solutions, and lookahead
-            trees. The package includes full documentation, CI pipelines, and
-            100% unit test code coverage.
+            Given a network of roads, a fleet of cars, and a time limit, how do
+            we maximize the distance covered? This Julia package seeks to answer
+            this problem with a collection of graph pathfinding algorithms and
+            optimal greedy/lookahead routing algorithms, including Dijkstra’s,
+            greedy BFS solutions, and lookahead trees. The package includes full
+            documentation, CI pipelines, and 100% unit test code coverage.
           </p>
 
           <p>

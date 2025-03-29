@@ -23,6 +23,9 @@ a {
 .container {
   padding-left: 10%;
   padding-right: 10%;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
 }
 .btn {
   background: #f9f8f6;
