@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <div className="projects">
       <div className="projects-header" id="projects">
-        Projects
+        Things I've Built
       </div>
 
       {/* BlobGSN */}

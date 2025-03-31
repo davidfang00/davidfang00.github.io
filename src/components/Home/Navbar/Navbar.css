@@ -10,7 +10,7 @@ nav {
   align-items: center;
   justify-content: space-between; /*navbar on top right*/
   z-index: 10;
-  height: 100px;
+  height: 60px;
 }
 
 .nav-wrapper {
@@ -135,36 +135,30 @@ nav ul li {
   left: 50%;
 }
 
-/*media query*/
-@media (max-width: 1000px) {
-  .logo {
-    width: 60px;
-  }
-  nav ul li {
-    margin: 10px 15px;
-  }
-}
-
 @media (max-width: 840px) {
   nav {
     padding: 15px 0;
+    z-index: 10;
   }
   nav ul {
     position: fixed;
-    top: 0;
-    right: 0px;
+    top: 60px; /* Push down below the navbar */
+    right: 10px;
     bottom: 0;
-    background: #f9f8f6;
-    z-index: -1;
+    /* background: #f9f8f6; */
+    background: #ebebe4ed;
+    z-index: 1;
     width: 30%;
-    padding-top: 70px;
+    padding-top: 5px;
     transition: 0.5s;
-    min-width: 170px;
-    max-width: 250px;
+    min-width: 150px;
+    max-width: 225px;
+    max-height: fit-content;
+    border-radius: 10px;
   }
   nav ul li {
     display: block;
-    margin: 25px 40px;
+    margin: 15px 0 25px 20px;
   }
   .dark-nav ul {
     display: block;
@@ -175,6 +169,7 @@ nav ul li {
     display: block;
     width: 30px;
     cursor: pointer;
+    z-index: 5;
   }
   .hide-mobile-menu {
     right: -500px;
