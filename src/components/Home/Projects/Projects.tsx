@@ -1,6 +1,7 @@
 import React from "react";
 
 import headshot from "../../../assets/headshot.jpg";
+import heartleaflogo from "../../../assets/heartleaf/heartleaflogofull.png";
 import blobgsn from "../../../assets/blobgsn/scene_walk_3_long.gif";
 import optical_flow from "../../../assets/optical_flow/optical_flow.jpg";
 import recon3d from "../../../assets/cv_project/cv_thumbnail-transparent.png";
@@ -14,6 +15,37 @@ const Projects = () => {
     <div className="projects">
       <div className="projects-header" id="projects">
         Things I've Built
+      </div>
+
+      {/* Heartleaf Studios */}
+      <div className="projects-item">
+        <div className="projects-left">
+          <img
+            src={heartleaflogo}
+            alt=""
+            className="projects-img"
+            style={{ backgroundColor: "#07200a" }}
+          />
+        </div>
+        <div className="projects-right">
+          <h3>Heartleaf Studios</h3>
+          <p>
+            Building the next generation of animation studios using our own
+            suite of generative AI tools for animators, including tools for
+            frame interpolation, character turnarounds, object references, etc.
+          </p>
+          <p>
+            {" "}
+            <a
+              href="https://heartleaf.studio"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#0000EE" }}
+            >
+              heartleaf.studio
+            </a>{" "}
+          </p>
+        </div>
       </div>
 
       {/* BlobGSN */}
@@ -42,7 +74,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               style={{ color: "#0000EE" }}
             >
-              Thesis
+              thesis
             </a>{" "}
             /{" "}
             <a
@@ -51,7 +83,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               style={{ color: "#0000EE" }}
             >
-              Project Page
+              project page
             </a>{" "}
             /{" "}
             <a
@@ -60,7 +92,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               style={{ color: "#0000EE" }}
             >
-              Code
+              code
             </a>{" "}
           </p>
         </div>
@@ -89,7 +121,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               style={{ color: "#0000EE" }}
             >
-              Thesis
+              thesis
             </a>{" "}
             /{" "}
             <a
@@ -98,7 +130,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               style={{ color: "#0000EE" }}
             >
-              Code
+              code
             </a>{" "}
           </p>
         </div>
@@ -126,7 +158,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               style={{ color: "#0000EE" }}
             >
-              Paper
+              paper
             </a>{" "}
             /{" "}
             <a
@@ -135,7 +167,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               style={{ color: "#0000EE" }}
             >
-              Code
+              code
             </a>{" "}
           </p>
         </div>
@@ -165,7 +197,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               style={{ color: "#0000EE" }}
             >
-              Docs
+              docs
             </a>{" "}
             /{" "}
             <a
@@ -174,7 +206,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               style={{ color: "#0000EE" }}
             >
-              Code
+              code
             </a>{" "}
           </p>
         </div>
