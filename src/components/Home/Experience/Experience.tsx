@@ -25,6 +25,8 @@ const Experience = () => {
             ], MIT CSAIL, Google, MIT Media Lab, MIT Research Laboratory of
             Electronics, Redfin
           </p>
+
+          <p>M.Eng. in CS at MIT, B.S. in CS and Physics at MIT</p>
         </div>
       </div>
     </>

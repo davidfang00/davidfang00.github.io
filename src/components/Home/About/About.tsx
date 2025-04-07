@@ -14,11 +14,11 @@ const About = () => {
           and understand the world around us. I'm currently a Member of
           Technical Staff at OpenAI working on multimodal AI.
         </p>
-        <p>
+        {/* <p>
           Previously, I worked on my own startup building gen AI animation
           tools, and also at Google and Redfin. I graduated from MIT with an
           M.Eng. in CS and a B.S. in CS and Physics.
-        </p>
+        </p> */}
         <p>
           {" "}
           <a
