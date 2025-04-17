@@ -27,8 +27,8 @@ const Experience = () => {
           </p>
 
           <p>
-            Computer Science M.Eng. @ MIT / Computer Science + Physics B.S. @
-            MIT
+             Computer Science M.Eng. @ MIT
+             Physics + Computer Science B.S. @ MIT
           </p>
         </div>
       </div>
