@@ -33,7 +33,7 @@ const Navbar = (props) => {
         <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
           <li>
             <ScrollLink to="about" smooth={true} offset={-80} duration={500}>
-              About
+              About Me
             </ScrollLink>
           </li>
           <li>

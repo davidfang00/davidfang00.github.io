@@ -26,7 +26,10 @@ const Experience = () => {
             Electronics, Redfin
           </p>
 
-          <p>M.Eng. in CS at MIT, B.S. in CS and Physics at MIT</p>
+          <p>
+            Computer Science M.Eng. @ MIT / Computer Science + Physics B.S. @
+            MIT
+          </p>
         </div>
       </div>
     </>
