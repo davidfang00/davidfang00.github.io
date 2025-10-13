@@ -12,7 +12,7 @@ const About = () => {
         <p>
           Hi, I'm David! I’m passionate about exploring how machines can learn
           and understand the world around us. I'm currently a Member of
-          Technical Staff at OpenAI working on all things multimodal in the API.
+          Technical Staff at OpenAI working on multimodal audio and speech.
         </p>
         {/* <p>
           Previously, I worked on my own startup building gen AI animation

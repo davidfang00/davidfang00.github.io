@@ -83,3 +83,8 @@ a {
   text-align: center;
   color: white;
 }
+
+/* Ensure semantic bold elements remain bold despite global font-weight */
+strong, b {
+  font-weight: 700;
+}

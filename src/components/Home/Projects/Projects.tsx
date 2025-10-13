@@ -1,6 +1,7 @@
 import React from "react";
 
 import headshot from "../../../assets/headshot.jpg";
+import openai_gpt_realtime from "../../../assets/openai/openai_gpt_realtime.png";
 import openai_audio from "../../../assets/openai/openai_audio_models.png";
 import heartleaflogo from "../../../assets/heartleaf/heartleaflogofull.png";
 import blobgsn from "../../../assets/blobgsn/scene_walk_3_long.gif";
@@ -15,7 +16,69 @@ const Projects = () => {
   return (
     <div className="projects">
       <div className="projects-header" id="projects">
-        Things I've Built
+        Things I've Done
+      </div>
+
+      {/* OpenAI Realtime GA */}
+      <div className="projects-item">
+        <div className="projects-left">
+          <img
+            src={openai_gpt_realtime}
+            alt=""
+            className="projects-img"
+            style={{ backgroundColor: "#07200a" }}
+          />
+        </div>
+        <div className="projects-right">
+          <h3>OpenAI GPT-Realtime</h3>
+          <p>
+            The Realtime API is now generally available with a new
+            <strong> gpt-realtime </strong> speech-to-speech model, along with
+            two new voices and other new API features. The new model has
+            improved intelligence, function calling, instruction following, and
+            voice naturalness. Additionally, a{" "}
+            <strong> gpt-realtime-mini </strong> model is available (announced
+            at DevDay 2025).
+          </p>
+          <p>
+            {" "}
+            <a
+              href="https://openai.com/index/introducing-gpt-realtime/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#0000EE" }}
+            >
+              release_blog
+            </a>{" "}
+            /{" "}
+            {/* <a
+              href="https://platform.openai.com/docs/guides/realtime"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#0000EE" }}
+            >
+              api_guide
+            </a>{" "}
+            /{" "} */}
+            <a
+              href="https://www.inc.com/ben-sherry/openai-just-announced-gpt-realtime-its-cheapest-voice-ai-model-yet/91233168"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#0000EE" }}
+            >
+              inc.com
+            </a>{" "}
+            /{" "}
+            <a
+              href="https://youtu.be/hS1YqcewH0c?t=2826"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#0000EE" }}
+            >
+              devday_keynote
+            </a>{" "}
+          </p>
+        </div>
       </div>
 
       {/* OpenAI Audio models */}
@@ -31,14 +94,23 @@ const Projects = () => {
         <div className="projects-right">
           <h3>OpenAI GPT-4o Audio</h3>
           <p>
-            New GPT-4o audio models for speech-to-text and text-to-speech in the
-            OpenAI API. The speech-to-text model is SOTA on multilingual
-            transcription benchmarks, while the TTS model brings better voice
+            New GPT-4o audio models for transcription and text-to-speech. The
+            transcription model is SOTA on multilingual transcription benchmarks
+            such as FLEURS, while the TTS model brings better voice
             controllability and customization.
           </p>
           <p>
             {" "}
             <a
+              href="https://openai.com/index/introducing-our-next-generation-audio-models/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#0000EE" }}
+            >
+              release_blog
+            </a>{" "}
+            /{" "}
+            {/* <a
               href="https://platform.openai.com/docs/guides/audio"
               target="_blank"
               rel="noopener noreferrer"
@@ -46,7 +118,7 @@ const Projects = () => {
             >
               api_guide
             </a>{" "}
-            /{" "}
+            /{" "} */}
             <a
               href="https://www.openai.fm"
               target="_blank"
@@ -54,15 +126,6 @@ const Projects = () => {
               style={{ color: "#0000EE" }}
             >
               openai.fm
-            </a>{" "}
-            /{" "}
-            <a
-              href="https://openai.com/index/introducing-our-next-generation-audio-models/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "#0000EE" }}
-            >
-              research_blog
             </a>{" "}
             /{" "}
             <a
@@ -233,7 +296,7 @@ const Projects = () => {
       </div>
 
       {/* Julia Routing */}
-      <div className="projects-item">
+      {/* <div className="projects-item">
         <div className="projects-left">
           <img src={julia_routing} alt="" className="projects-img" />
         </div>
@@ -268,7 +331,7 @@ const Projects = () => {
             </a>{" "}
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
