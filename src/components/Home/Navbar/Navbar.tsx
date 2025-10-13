@@ -48,7 +48,7 @@ const Navbar = (props) => {
           </li>
           <li>
             <ScrollLink to="projects" smooth={true} offset={-80} duration={500}>
-              Things I've Built
+              Things I've Done
             </ScrollLink>
           </li>
           {/* <li>
