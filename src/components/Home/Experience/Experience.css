@@ -19,6 +19,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  max-width: none;
   margin-top: 20px;
   font-size: 30px;
   /* color: #212ea0; */
@@ -92,6 +93,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    max-width: none;
     margin-top: 30px;
     font-size: 25px;
     /* color: #212ea0; */

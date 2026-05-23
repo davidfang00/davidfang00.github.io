@@ -16,9 +16,17 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: #245d6f;
   line-height: 1;
   cursor: pointer;
+  text-underline-offset: 3px;
+  transition: color 160ms ease, text-decoration-color 160ms ease;
+}
+
+a:hover {
+  color: #143f4c;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 .container {
   padding-left: 10%;

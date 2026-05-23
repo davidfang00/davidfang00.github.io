@@ -5,9 +5,9 @@ import "./Experience.css";
 const Experience = () => {
   return (
     <>
-      <div className="experience-header" id="experience">
+      <h2 className="experience-header" id="experience">
         Experience
-      </div>
+      </h2>
 
       {/* Experience */}
       <div className="experience-item">

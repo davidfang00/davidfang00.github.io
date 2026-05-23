@@ -1,22 +1,55 @@
 import React from "react";
 
-import headshot from "../../../assets/headshot.jpg";
-import openai_gpt_realtime from "../../../assets/openai/openai_gpt_realtime.png";
-import openai_audio from "../../../assets/openai/openai_audio_models.png";
-import heartleaflogo from "../../../assets/heartleaf/heartleaflogofull.png";
 import blobgsn from "../../../assets/blobgsn/scene_walk_3_long.gif";
-import optical_flow from "../../../assets/optical_flow/optical_flow.png";
-import recon3d from "../../../assets/cv_project/cv_thumbnail_cropped.png";
 import recon3d_pdf from "../../../assets/cv_project/cv_project_paper.pdf";
+import recon3d from "../../../assets/cv_project/cv_thumbnail_cropped.png";
+import headshot from "../../../assets/headshot.jpg";
+import heartleaflogo from "../../../assets/heartleaf/heartleaflogofull.png";
 import julia_routing from "../../../assets/julia_hashcode/paths_thumbnail.png";
+import openai_audio from "../../../assets/openai/openai_audio_models.png";
+import openai_gpt_realtime_2 from "../../../assets/openai/openai_gpt_realtime_2.webp";
+import openai_gpt_realtime from "../../../assets/openai/openai_gpt_realtime.png";
+import optical_flow from "../../../assets/optical_flow/optical_flow.png";
 
 import "./Projects.css";
 
 const Projects = () => {
   return (
     <div className="projects">
-      <div className="projects-header" id="projects">
-        Things I've Done
+      <h2 className="projects-header" id="projects">
+        Selected Work
+      </h2>
+
+      {/* OpenAI GPT-Realtime-2/Translate/Whisper */}
+      <div className="projects-item">
+        <div className="projects-left">
+          <img
+            src={openai_gpt_realtime_2}
+            alt=""
+            className="projects-img projects-img-openai-wide"
+          />
+        </div>
+        <div className="projects-right">
+          <h3>OpenAI GPT Realtime-2/Translate/Whisper</h3>
+          <p>
+            Three new realtime audio models:
+            <strong> gpt-realtime-2 </strong> for voice agents with GPT-5-class
+            reasoning, <strong> gpt-realtime-translate </strong> for live
+            translation, and <strong> gpt-realtime-whisper </strong> for
+            low-latency streaming transcription.
+          </p>
+          <p>
+            {" "}
+            <a
+              href="https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#0000EE" }}
+            >
+              release_blog
+            </a>{" "}
+          </p>
+        </div>
       </div>
 
       {/* OpenAI Realtime GA */}
@@ -32,11 +65,9 @@ const Projects = () => {
         <div className="projects-right">
           <h3>OpenAI GPT-Realtime</h3>
           <p>
-            The Realtime API is now generally available with a new
+            Realtime API is now generally available with a new
             <strong> gpt-realtime </strong> speech-to-speech model, along with
-            two new voices and other new API features. The new model has
-            improved intelligence, function calling, instruction following, and
-            voice naturalness. Additionally, a{" "}
+            two new voices and other new API features. Additionally, a{" "}
             <strong> gpt-realtime-mini </strong> model is available (announced
             at DevDay 2025).
           </p>
@@ -50,7 +81,6 @@ const Projects = () => {
             >
               release_blog
             </a>{" "}
-            /{" "}
             {/* <a
               href="https://platform.openai.com/docs/guides/realtime"
               target="_blank"
@@ -60,23 +90,6 @@ const Projects = () => {
               api_guide
             </a>{" "}
             /{" "} */}
-            <a
-              href="https://www.inc.com/ben-sherry/openai-just-announced-gpt-realtime-its-cheapest-voice-ai-model-yet/91233168"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "#0000EE" }}
-            >
-              inc.com
-            </a>{" "}
-            /{" "}
-            <a
-              href="https://youtu.be/hS1YqcewH0c?t=2826"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "#0000EE" }}
-            >
-              devday_keynote
-            </a>{" "}
           </p>
         </div>
       </div>
@@ -92,13 +105,8 @@ const Projects = () => {
           />
         </div>
         <div className="projects-right">
-          <h3>OpenAI GPT-4o Audio</h3>
-          <p>
-            New GPT-4o audio models for transcription and text-to-speech. The
-            transcription model is SOTA on multilingual transcription benchmarks
-            such as FLEURS, while the TTS model brings better voice
-            controllability and customization.
-          </p>
+          <h3>OpenAI GPT-4o Transcribe/TTS</h3>
+          <p>New GPT-4o audio models for transcription and text-to-speech.</p>
           <p>
             {" "}
             <a
@@ -126,15 +134,6 @@ const Projects = () => {
               style={{ color: "#0000EE" }}
             >
               openai.fm
-            </a>{" "}
-            /{" "}
-            <a
-              href="https://techcrunch.com/2025/03/20/openai-upgrades-its-transcription-and-voice-generating-ai-models/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "#0000EE" }}
-            >
-              techcrunch
             </a>{" "}
           </p>
         </div>
@@ -185,9 +184,9 @@ const Projects = () => {
           <p>
             We use Gaussian blobs and GANs to generate a 2D latent floorplan to
             locally condition a NeRF. By moving, scaling, removing, and adding
-            these blobs in the latent space, corresponding objects can be edited
-            in the rendered scene. This results in editable and customizable 3D
-            scene generation and a self-supervised object representation.
+            blobs in the latent space, corresponding objects can be edited in
+            the rendered scene, resulting in editable 3D scene generation and a
+            self-supervised object representation.
           </p>
           <p>
             {" "}
@@ -229,11 +228,10 @@ const Projects = () => {
         <div className="projects-right">
           <h3>Optical Flow Estimation & Diffusion</h3>
           <p>
-            We explore multiple frameworks for unsupervised optical flow
-            estimation to tackle challenges such as photometric error, occlusion
-            handling, and flow smoothness. Additionally, we propose an
-            unsupervised generative framework for optical flow diffusion from a
-            single frame.
+            We explore frameworks for unsupervised optical flow estimation to
+            tackle challenges such as photometric error, occlusion handling, and
+            flow smoothness. Also, we propose an unsupervised generative
+            framework for optical flow diffusion from a single frame.
           </p>
           <p>
             {" "}
@@ -266,11 +264,9 @@ const Projects = () => {
         <div className="projects-right">
           <h3>Image-to-3D Object Reconstruction</h3>
           <p>
-            Reconstructing 3D voxel shapes from 2D images is a challenging task
-            for computer vision. We tackle this challenge using UNet
-            encoder-decoder neural networks, with single-image and multi-image
-            approaches. We use the ShapeNet Core55 dataset to train and evaluate
-            our models.
+            We propose a 3D voxel reconstruction pipeline from 2D images using
+            UNet encoder-decoder neural networks, with single-image and
+            multi-view approaches.
           </p>
           <p>
             {" "}
